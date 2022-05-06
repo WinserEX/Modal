@@ -1,10 +1,27 @@
  /* The Modal (background) */
  img {
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
 
  }
+
+ body {
+     background-image: url("img/zawarudo.jpg");
+     background-size: cover;
+     overflow-y: hidden;
+ }
+
+ .bacaneria {
+    text-align: center;
+ }
+
+ #myBtn {
+    margin: 25%;
+    width: 100px;
+    height: auto;  
+ }
  
+
  .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -15,16 +32,21 @@
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */    
   }
   
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 5% auto; /* 5% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    background-image: url("img/blue.jpg");
+    background-size: cover;
+    text-align: center;
+    
+ 
   }
   
   /* The Close Button */
@@ -37,7 +59,13 @@
   
   .close:hover,
   .close:focus {
-    color: black;
+    color: yellow;
     text-decoration: none;
     cursor: pointer;
   } 
+
+  p {
+      color: white;
+      font-weight: bold;
+      font-family: montserrat;
+  }
